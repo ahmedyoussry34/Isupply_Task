@@ -1,0 +1,9 @@
+<suite name="ParallelSuite" parallel="classes" thread-count="4">
+    <test name="ParallelClassesTest">
+        <classes>
+            <class name="catFactsTests.catFactsTests" />
+            <class name="herokuTests.herokuTests" />
+            <class name="googleSearchTests.googleSearchTest" />
+        </classes>
+    </test>
+</suite>
