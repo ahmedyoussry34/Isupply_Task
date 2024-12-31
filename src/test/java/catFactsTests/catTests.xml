@@ -1,0 +1,7 @@
+<suite name="ParallelSuite" parallel="methods" thread-count="1">
+    <test name="cat Tests">
+        <classes>
+            <class name="catFactsTests.catFactsTests" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+<suite name="ParallelSuite" parallel="methods" thread-count="1">
+    <test name="heroku Tests">
+        <classes>
+            <class name="herokuTests.herokuTests" />
+        </classes>
+    </test>
+</suite>

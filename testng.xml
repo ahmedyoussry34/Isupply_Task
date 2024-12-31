@@ -1,5 +1,5 @@
-<suite name="ParallelSuite" parallel="classes" thread-count="4">
-    <test name="ParallelClassesTest">
+<suite name="allTestsSuite">
+    <test name="allTests">
         <classes>
             <class name="catFactsTests.catFactsTests" />
             <class name="herokuTests.herokuTests" />
